@@ -1,4 +1,4 @@
-inductive SynthesisError : Type u where
+inductive SynthesisError : Type _ where
 -- During synthesis, we lacked knowledge of a variable assignment.
   | AssignmentMissing : SynthesisError
 -- During synthesis, we divided by zero.
