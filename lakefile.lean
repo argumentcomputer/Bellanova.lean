@@ -1,6 +1,6 @@
 import Lake
 open Lake DSL
 
-package BellPerson {
+package Bellanova {
   -- add configuration options here
 }
