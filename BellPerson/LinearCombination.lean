@@ -20,10 +20,6 @@ def LinearCombination.size (v : LinearCombination F) : Nat
 instance [OfNat F 0] : Inhabited (LinearCombination F) where
   default := LinearCombination.mk #[(mkZeroVar, 0)]
 
-instance : Add (LinearCombination F) where
-  add v₁ v₂ :=
-    LinearCombination.mk _
-
 structure Indexer (F : Type _) where
   values : Array (USize × F)
   lastInserted : Option (USize × USize)

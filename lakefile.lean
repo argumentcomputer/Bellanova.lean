@@ -7,4 +7,4 @@ package BellPerson
 lean_lib BellPerson
 
 require YatimaStdLib from git
-  "https://github.com/yatima-inc/YatimaStdLib.lean" @ "ea96c587a3f9e8f65719b6f4f70f1305c560c6ac"
+  "https://github.com/yatima-inc/YatimaStdLib.lean" @ "dcf9c9f77db7564025f61107e9503caf011e39dc"
