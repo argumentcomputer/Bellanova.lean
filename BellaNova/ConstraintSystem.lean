@@ -1,5 +1,5 @@
-import BellPerson.Error
-import BellPerson.LinearCombination
+import BellaNova.Error
+import BellaNova.LinearCombination
 
 class ConstraintSystem (F : Type _) where
   /-- Gets the "root" constraint system, bypassing the namespacing.
