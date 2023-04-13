@@ -7,4 +7,7 @@ package BellaNova
 lean_lib BellaNova
 
 require YatimaStdLib from git
-  "https://github.com/lurk-lab/YatimaStdLib.lean" @ "49ee890897dbdd4665d0e8c75cd3401f0b4e6f21"
+  "https://github.com/lurk-lab/YatimaStdLib.lean" @ "f39dca7a0815ee65e71776d46337f0240037ff6d"
+  
+require FFaCiL from git
+  "https://github.com/lurk-lab/FFaCiL.lean" @ "b3254118a665ca18625c7ca848cc02625d2e5d73"
